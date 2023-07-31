@@ -123,31 +123,8 @@ if selected =='About':
       smart contracts and decentralized application. I have worked on several Frontend projects and I am 
          also a part of content writing team.
                      """)
-        
-                         
-    st.write("---")  
-    st.write("---")  
     
-    with st.container():
-        st.header('Skills :') 
-        st.write("##")
-        st.subheader("""
-►Languages
-   Python, Javascript, C , C++ , Solidity
-                     """)
-        st.write("##")
-        st.write("##")
-        st.subheader("""
-►Libraries/Framework:
-    React.js, Web3.js,TailwindCss, Numpy, Pandas, Matplotlib, TensorFlow, Scikit-learn, Flask
-                     """)
-        st.write("##")
-        st.write("##")
-        st.subheader("""
-►Tools/Technologies:
-    Linux, Git, Github, Jupyter Notebook, Bootstrap, Google Colab, Visual Studio Code, Pycharm
-                     """)
-  
+
 if selected == 'Projects':
     with st.container():
         st.header('MY Projects')
