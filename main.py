@@ -113,24 +113,20 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.subheader("""
 ►DATA SCIENCE INTERN
     -Internship @ LETS GROW MORE 
-    -Time Period : JULY 2023 - PRESENT · 3 months
-    -Bengaluru, Karnataka, India · Hybrid
-    -I have worked on several Blockchain projects including the development of smart contracts and decentralized application.
-    I have worked on several Frontend projects and I am also a part of content writing team.I have worked on several Blockchain projects including the development of 
-      smart contracts and decentralized application. I have worked on several Frontend projects and I am 
-         also a part of content writing team.
+    -Time Period : JULY 2023 - PRESENT 
+    -Bengaluru, Karnataka, India · Remote
+    -I am currently working on Handwritten Equation Solver and Handwriting Detection using CNN and OCR.
+    -I also worked with music recommendation system, and next word prediction in a mobile keyboard and facial expression to text conversion.
                      """)  
         st.write("##")
         st.write("##")
         st.subheader("""
 ►JUNIOR BLOCKCHAIN DEVELOPER
     -Internship @ TELUSKO 
-    -Time Period : Nov 2022 - Jun 2023 · 8 months
+    -Time Period : Nov 2022 - Jun 2023 · (8 months)
     -Bengaluru, Karnataka, India · Hybrid
-    -I have worked on several Blockchain projects including the development of smart contracts and decentralized application.
-    I have worked on several Frontend projects and I am also a part of content writing team.I have worked on several Blockchain projects including the development of 
-      smart contracts and decentralized application. I have worked on several Frontend projects and I am 
-         also a part of content writing team.
+    -I have worked on several blockchain projects including the development of Decentralized Quiz app.
+    -I have worked on a full stack project of developing a Etherscan clone.
                      """)
     st.write("---")  
     st.write("---") 
@@ -141,10 +137,9 @@ So, let's embark on a magical journey together and witness the wonders we can cr
     -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
     -Time Period : 2022-2025
     -Bengaluru, Karnataka, India 
-    -I have worked on several Blockchain projects including the development of smart contracts and decentralized application.
-    I have worked on several Frontend projects and I am also a part of content writing team.I have worked on several Blockchain projects including the development of 
-      smart contracts and decentralized application. I have worked on several Frontend projects and I am 
-         also a part of content writing team.
+    - CGPA - 8.35
+    -I have participated in various hackathons, in which I developed various projects likeSecureProX and BookWise (more details
+    about these projects are available in projects section) 
                      """) 
     
 
@@ -152,33 +147,23 @@ if selected == 'Projects':
     with st.container():
         st.header('MY Projects')
         st.write('##')
-        # col7,col8=st.columns((1,2))
-        # with col7:
-            # st.image(project)
-        # with col8:
+        st.subheader(f"[🏆 CareConnect](https://github.com/pranshugupta01/CareConnect)")
+        st.write(f"[CareConnect is a browser extension designed to provide compassionate support and assistance to users who may be going through difficult emotional times. The extension monitors the user's browsing activities and messages, detecting distress signals related to depression and suicidal thoughts. When necessary, the extension offers a chatbot for emotional support or reaches out to the user's loved ones or relevant helpline services to ensure their well-being.](https://github.com/pranshugupta01/CareConnect)")
+        
+        st.write('##')
+        
         st.subheader(f"[🏆 SecureProX](https://github.com/pranshugupta01/SecureProX)")
         st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
+        
         st.write('##')
-        # col9,col10=st.columns((1,2))
-        # with col9:
-        #     st.image(project)
-        # with col10:
-        #     st.subheader(f"[🏆 TherraBuddy](https://github.com/pranshugupta01/SecureProX)")
-        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
-        # st.write('##')
-        # col11,col12=st.columns((1,2))
-        # with col11:
-        #     st.image(project)
-        # with col12:
-        #     st.subheader(f"[🏆 Warpspeed](https://github.com/pranshugupta01/SecureProX)")
-        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
-        # st.write('##')
-        # col13,col14=st.columns((1,2))
-        # with col13:
-        #     st.image(project)
-        # with col14:
-        #     st.subheader(f"[🏆 Bookwise](https://github.com/pranshugupta01/SecureProX)")
-        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
+       
+        st.subheader(f"[🏆 BookWise](https://github.com/pranshugupta01/BookWise)")
+        st.write(f"[It is a NGO-focused library management system powered by NextJS, Nodejs and MongoDB . It leverages machine learning to oer personalized book recommendations and includes a dedicated notes section. With ecient cataloging and user management, BookWise enhances the library experience for both students and administrators.](https://github.com/pranshugupta01/BookWise)")
+        
+        st.write('##')
+       
+        st.subheader(f"[🏆 DecentricQuiz](https://github.com/pranshugupta01/DecentricQuiz)")
+        st.write(f"[A trivia app powered by blockchain. Participants submit ethers to enter, answer questions, and compete fairly. The smart contract ensures the winner takes it all, offering a secure and rewarding experience. Join the future of quizzes now!](https://github.com/pranshugupta01/DecentricQuiz)")
 
 if selected=='Contact':
     st.header("Get In Touch")
