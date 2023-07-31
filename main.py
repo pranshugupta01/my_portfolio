@@ -44,9 +44,10 @@ col1,col2=st.columns((2,1))
 with st.container():
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader("Hey Guys :wave:")
-            st.title("My Portfolio Website")
-            st.write(""" hello guys myself pranshu gupta i am from ece branch and currently doing an internship as a data scientist""")
+            st.subheader("Hello World!!! :wave:")
+            st.header("""I am PRANSHU GUPTA, """)
+            st.subheader("Welcome To My Data-Driven Wonderland :)")
+            st.write("##")
             st.download_button(
             label=" 📄 Download Resume",
             data=PDFbyte,
@@ -79,23 +80,32 @@ if selected =='About':
             st_lottie(coder)
         with col4:
             st.write('##')
-            st.subheader('I Am Pranshu Gupta')
-            st.title('Machine Learning')
+            st.write("""## Unveiling My Arsenal 
+
+Here's a glimpse of what I bring to the tech table:
+
+🐍 Python Power
+
+🔮 Machine Learning Magician
+
+📊 Data Sorcery
+
+🌐 Web Wizardry
+
+⛓️ Blockchain Enthusiast
+
+💻 Code Conjurer
+
+🔧 Problem-Solving Sorcerer
+
+🎨 Art of Visualization
+
+🚀 Lifelong Learner
+
+So, let's embark on a magical journey together and witness the wonders we can create with technology!
+""")
             
-    st.write("---")  
-    with st.container():
-        st.header('Education :') 
-        st.subheader("""
-►BMS COLLEGE OF ENGINEERING
-    -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
-    -Time Period : 2022-2025
-    -Bengaluru, Karnataka, India 
-    -I have worked on several Blockchain projects including the development of smart contracts and decentralized application.
-    I have worked on several Frontend projects and I am also a part of content writing team.I have worked on several Blockchain projects including the development of 
-      smart contracts and decentralized application. I have worked on several Frontend projects and I am 
-         also a part of content writing team.
-                     """)
-    st.write("---")  
+   
     st.write("---")  
     with st.container():
         st.header('Work Experiences :')
@@ -122,6 +132,20 @@ if selected =='About':
       smart contracts and decentralized application. I have worked on several Frontend projects and I am 
          also a part of content writing team.
                      """)
+    st.write("---")  
+    st.write("---") 
+    with st.container():
+        st.header('Education :') 
+        st.subheader("""
+►BMS COLLEGE OF ENGINEERING
+    -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
+    -Time Period : 2022-2025
+    -Bengaluru, Karnataka, India 
+    -I have worked on several Blockchain projects including the development of smart contracts and decentralized application.
+    I have worked on several Frontend projects and I am also a part of content writing team.I have worked on several Blockchain projects including the development of 
+      smart contracts and decentralized application. I have worked on several Frontend projects and I am 
+         also a part of content writing team.
+                     """) 
     
 
 if selected == 'Projects':
