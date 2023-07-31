@@ -34,7 +34,7 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 
-project=Image.open('/images/Screenshot 2023-07-20 at 12.01.18 PM.png')
+# project=Image.open('/images/Screenshot 2023-07-20 at 12.01.18 PM.png')/
 coder= loadUrl("https://lottie.host/120d4a92-ef4c-4b54-8d52-f965069e45ba/L8meiSr4kh.json")
 contact_us= loadUrl("https://lottie.host/50af316e-8f92-46c2-94d3-ca354369d1a4/5oPpKCzznQ.json")
 profile_pic = loadUrl("https://lottie.host/29721b90-34fe-4554-bf91-0391f38ed6c9/kRoX3IZIw2.json")
