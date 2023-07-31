@@ -152,33 +152,33 @@ if selected == 'Projects':
     with st.container():
         st.header('MY Projects')
         st.write('##')
-        col7,col8=st.columns((1,2))
-        with col7:
-            st.image(project)
-        with col8:
+        # col7,col8=st.columns((1,2))
+        # with col7:
+            # st.image(project)
+        # with col8:
             st.subheader(f"[🏆 SecureProX](https://github.com/pranshugupta01/SecureProX)")
             st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
         st.write('##')
-        col9,col10=st.columns((1,2))
-        with col9:
-            st.image(project)
-        with col10:
-            st.subheader(f"[🏆 TherraBuddy](https://github.com/pranshugupta01/SecureProX)")
-            st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
-        st.write('##')
-        col11,col12=st.columns((1,2))
-        with col11:
-            st.image(project)
-        with col12:
-            st.subheader(f"[🏆 Warpspeed](https://github.com/pranshugupta01/SecureProX)")
-            st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
-        st.write('##')
-        col13,col14=st.columns((1,2))
-        with col13:
-            st.image(project)
-        with col14:
-            st.subheader(f"[🏆 Bookwise](https://github.com/pranshugupta01/SecureProX)")
-            st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
+        # col9,col10=st.columns((1,2))
+        # with col9:
+        #     st.image(project)
+        # with col10:
+        #     st.subheader(f"[🏆 TherraBuddy](https://github.com/pranshugupta01/SecureProX)")
+        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
+        # st.write('##')
+        # col11,col12=st.columns((1,2))
+        # with col11:
+        #     st.image(project)
+        # with col12:
+        #     st.subheader(f"[🏆 Warpspeed](https://github.com/pranshugupta01/SecureProX)")
+        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
+        # st.write('##')
+        # col13,col14=st.columns((1,2))
+        # with col13:
+        #     st.image(project)
+        # with col14:
+        #     st.subheader(f"[🏆 Bookwise](https://github.com/pranshugupta01/SecureProX)")
+        #     st.write(f"[This is a browser extension which promptly alerts users if a site is potentially a phishing site or contains malware, allowing them to make informed decisions before visiting any risky pages. Furthermore, it also displays the number of ads present on the linked site, giving users insight into the ad density and helping them avoid excessive advertisement bombardment.](https://github.com/pranshugupta01/SecureProX)")
 
 if selected=='Contact':
     st.header("Get In Touch")
