@@ -13,7 +13,7 @@ st.set_page_config(layout="wide",page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = current_dir / "assets" / "CV.pdf"
 css_file = current_dir / "styles" / "main.css"
-EMAIL = "gpranshu482@email.com"
+EMAIL = "gpranshu482@gmail.com"
 
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/pranshugupta01",
