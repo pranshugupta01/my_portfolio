@@ -130,17 +130,17 @@ So, let's embark on a magical journey together and witness the wonders we can cr
                      """)
     st.write("---")  
     st.write("---") 
-    with st.container():
-        st.header('Education :') 
-        st.subheader("""
-►BMS COLLEGE OF ENGINEERING
-    -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
-    -Time Period : 2022-2025
-    -Bengaluru, Karnataka, India 
-    - CGPA - 8.35
-    -I have participated in various hackathons, in which I developed various projects likeSecureProX and BookWise (more details
-    about these projects are available in projects section) 
-                     """) 
+#     with st.container():
+#         st.header('Education :') 
+#         st.subheader("""
+# ►BMS COLLEGE OF ENGINEERING
+#     -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
+#     -Time Period : 2022-2025
+#     -Bengaluru, Karnataka, India 
+#     - CGPA - 8.35
+#     -I have participated in various hackathons, in which I developed various projects likeSecureProX and BookWise (more details
+#     about these projects are available in projects section) 
+#                      """) 
     
 
 if selected == 'Projects':
