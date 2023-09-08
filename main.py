@@ -112,7 +112,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.write("##")
         st.subheader("""
 ►DATA SCIENCE INTERN
-    -Internship @ LETS GROW MORE 
+    -Internship @ LGM
     -Time Period : JULY 2023 - PRESENT 
     -Bengaluru, Karnataka, India · Remote
     -I am currently working on Handwritten Equation Solver and Handwriting Detection using CNN and OCR.
