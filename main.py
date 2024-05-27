@@ -111,7 +111,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.header('Work Experiences :')
         st.write("##")
         st.subheader("""
-►DATA SCIENCE INTERN
+►R&D INTERN
     -Internship @ LGM
     -Time Period : JULY 2023 - PRESENT 
     -Bengaluru, Karnataka, India · Remote
@@ -121,12 +121,12 @@ So, let's embark on a magical journey together and witness the wonders we can cr
         st.write("##")
         st.write("##")
         st.subheader("""
-►JUNIOR BLOCKCHAIN DEVELOPER
+►FULL STACK DEVELOPER
     -Internship @ TELUSKO 
-    -Time Period : Nov 2022 - Jun 2023 · (8 months)
+    -Time Period : Nov 2022 - Apr 2023 · (6 months)
     -Bengaluru, Karnataka, India · Hybrid
-    -I have worked on several blockchain projects including the development of Decentralized Quiz app.
-    -I have worked on a full stack project of developing a Etherscan clone.
+    -I have worked on several web development projects including the development of Decentralized Quiz app.
+    -I have worked on a project of developing a Etherscan clone.
                      """)
     st.write("---")  
     st.write("---") 
