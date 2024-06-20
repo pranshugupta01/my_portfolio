@@ -18,8 +18,7 @@ EMAIL = "gpranshu482@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/pranshugupta01",
     "GitHub": "https://github.com/pranshugupta01",
-    "Twitter": "https://twitter.com/pranshu_gupta01",
-    "Instagram": "https://www.instagram.com/pranshu_gupta01"
+    "Twitter": "https://twitter.com/pranshu_gupta01"
 }
 
 def loadUrl(url):
