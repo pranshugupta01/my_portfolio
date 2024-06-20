@@ -153,7 +153,7 @@ So, let's embark on a magical journey together and witness the wonders we can cr
 #                      """) 
 
 with st.container():
-    st.header('Check out my recent research paper :')
+    st.header('My Recent Research Papers :')
     st.write('##')
     st.subheader(f"[📄 Blockchain-Based Risk Management and Transparency in Loan Disbursements](https://ieeexplore.ieee.org/document/10392836)")
     st.write("The Loan Market faces significant fraud risks due to practices like reusing collateral and inadequate bank assessments. To combat this, a Blockchain framework using Multi-Signature smart contracts is proposed. It improves transparency, reduces fraud, and synchronizes loan records. Financial institutions must use these contracts for large loans, confirmed by a Risk Management Score, ensuring efficient record-keeping and regulatory compliance.")
