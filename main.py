@@ -105,19 +105,29 @@ Here's a glimpse of what I bring to the tech table:
 So, let's embark on a magical journey together and witness the wonders we can create with technology!
 """)
             
-   
     st.write("---")  
     with st.container():
         st.header('Work Experiences :')
         st.write("##")
         st.subheader("""
 ►R&D INTERN
-    -Internship @ LGM
-    -Time Period : JULY 2023 - PRESENT 
+    -Internship @ CodSoft
+    -Time Period : Nov 2023 - Dec 2023 
     -Bengaluru, Karnataka, India · Remote
-    -I am currently working on Handwritten Equation Solver and Handwriting Detection using CNN and OCR.
-    -I also worked with music recommendation system, and next word prediction in a mobile keyboard and facial expression to text conversion.
+    -Research and contribution in development of an NLP-based survey system, enhancing data analysis capabilities for improved insights.
+    -Developed a platform similar to Kaggle, featuring real-life datasets for collaborative data projects.
                      """)  
+        st.write("##")
+        st.write("##")
+        st.subheader("""
+►ML Intern
+    -Internship @ LGM 
+    - Time Period : June 2023 - Aug 2023 
+    -Bengaluru, Karnataka, India · Hybrid
+    - Developed an OCR module using OpenCV and Pytesseract to accurately extract medical report details, with a specific focus on extracting tabular data directly to a CSV.
+    - Created a Flask API that accepts images as input and returns the extracted data in JSON format.
+    - Deployed the FlaskAPI in AWS server.
+    """)
         st.write("##")
         st.write("##")
         st.subheader("""
@@ -135,13 +145,20 @@ So, let's embark on a magical journey together and witness the wonders we can cr
 #         st.subheader("""
 # ►BMS COLLEGE OF ENGINEERING
 #     -B.TECH @ ELECTRONICS AND COMMUNICATIONS ENGINEERING
-#     -Time Period : 2022-2025
+#     -Time Period : 2021-2025
 #     -Bengaluru, Karnataka, India 
-#     - CGPA - 8.35
-#     -I have participated in various hackathons, in which I developed various projects likeSecureProX and BookWise (more details
+#     - CGPA - 8.05
+#     -I have participated in various hackathons, in which I developed various projects like SecureProX and BookWise (more details
 #     about these projects are available in projects section) 
 #                      """) 
-    
+
+with st.container():
+    st.header('Check out my recent research paper :')
+    st.write('##')
+    st.subheader(f"[📄 Blockchain-Based Risk Management and Transparency in Loan Disbursements](https://ieeexplore.ieee.org/document/10392836)")
+    st.write("The Loan Market faces significant fraud risks due to practices like reusing collateral and inadequate bank assessments. To combat this, a Blockchain framework using Multi-Signature smart contracts is proposed. It improves transparency, reduces fraud, and synchronizes loan records. Financial institutions must use these contracts for large loans, confirmed by a Risk Management Score, ensuring efficient record-keeping and regulatory compliance.")
+    st.write("---")  
+    st.write("---") 
 
 if selected == 'Projects':
     with st.container():
